@@ -17,6 +17,13 @@ html, body{
     font-size: 25px;
     vertical-align: middle;
 }
+::placeholder {
+    color: rgb(206, 206, 206);
+    font-size: 1.4rem;
+    align-content: center;
+    padding-left: 1.5rem;
+    font-style: italic;
+  }
 #addToDo {
     height: 40px;
     width: 40px;
