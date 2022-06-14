@@ -15,7 +15,7 @@ addToDoButton.addEventListener('click', function () {
     })
 
     paragraph.addEventListener('dblclick',function(){ // double click to remove done item
-        toDoContainer.removeChild(paragraph)
+        toDoContainer.removeChild(paragraph) //not all list, only child removed
         })
 
 })
